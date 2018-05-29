@@ -4,6 +4,30 @@
 /*-------------------------------*/
 /*           VARIABLES           */
 /*-------------------------------*/
+/*
+console.log(Json)
+
+console.log(Object.entries(Json.paths));
+let toto={};
+let help={}
+Object.entries(Json.paths).map((item,index)=>{
+  console.log("bobo")
+  let a = item[0]
+  let b = item[1]
+  help[a]=b
+  console.log(help)
+  toto.help=help;
+  return help
+
+});
+console.log(toto.help)
+  }
+
+
+
+
+
+/*
 body {
   position: relative;
   overflow-x: hidden;
